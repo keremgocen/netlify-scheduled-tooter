@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "declaration": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "useDefineForClassFields": false,
+    "skipLibCheck": true,
+    "noImplicitOverride": true,
+    "noEmit": true,
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "types": ["node"],
+    "paths": {
+      "masto": ["../src/index.ts"]
+    }
+  },
+  //   "include": ["./src/**/*", "./tests/**/*", "./test-utils/**/*"],
+  "typedocOptions": {
+    "out": "./docs",
+    "theme": "default",
+    "exclude": "**/+(__tests__|__mocks__)/*",
+    "excludePrivate": true,
+    "excludeProtected": true
+  },
+  "include": ["./**/*"]
+}

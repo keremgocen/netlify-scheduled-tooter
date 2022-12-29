@@ -1,0 +1,8 @@
+# ./netlify.toml
+
+[functions."test-function"]
+schedule = "@hourly"
+
+[dev]
+functions = "test-functions"
+functionsPort = 7000
